@@ -1,0 +1,67 @@
+/*parte exterior de la cancha*/
+main .cancha {
+
+	width: 1000px;
+	height: 600px;
+	background-color: #8cb27c;
+	position: relative;
+	border: 2px solid white;
+	padding: 30px;
+	box-sizing: border-box;
+
+}
+/*parte interna de la cancha*/
+div.cancha .interior{
+	border: 3px solid white;
+	height: 100%;
+	position: relative;
+	background-color: #8cb27c;
+
+}
+/*arco izquierdo*/
+div.interior .arcoLeft {
+  border: 2px solid white;
+  width: 116px;
+  height: 193px;
+  top: 138px;
+  position: relative;
+  left: -1px;
+}
+/*arco derecho*/
+div.interior .arcoRight {
+  border: 2px solid white;
+  width: 116px;
+  height: 193px;
+  top: 138px;
+  position: absolute;
+  right: -1px;
+}
+/*circulo centro*/
+div.interior .center {
+	border: 2px solid white;
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 38%;
+	top: 120px;
+}
+
+div.interior .ball1 {
+	position: absolute;
+	top: 45px;
+	left: 416px;
+}
+
+div.interior .ball2 {
+	position: absolute;
+	top: 135px;
+	left: 60px;
+
+}
+
+div.interior .ball3 {
+	position: relative;
+	top: 45px;
+	left: 750px;
+}
