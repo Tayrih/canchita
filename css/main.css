@@ -1,18 +1,24 @@
+h1 {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 70px;
+	text-align: center;
+}
+
 /*parte exterior de la cancha*/
 main .cancha {
 
-	width: 1000px;
-	height: 600px;
+	width: 800px;
+	height: 400px;
 	background-color: #8cb27c;
 	position: relative;
-	border: 2px solid white;
-	padding: 30px;
+	border: 1px solid white;
+	padding: 20px;
 	box-sizing: border-box;
 
 }
 /*parte interna de la cancha*/
 div.cancha .interior{
-	border: 3px solid white;
+	border: 1px solid white;
 	height: 100%;
 	position: relative;
 	background-color: #8cb27c;
@@ -20,48 +26,48 @@ div.cancha .interior{
 }
 /*arco izquierdo*/
 div.interior .arcoLeft {
-  border: 2px solid white;
-  width: 116px;
-  height: 193px;
-  top: 138px;
-  position: relative;
+  border: 1px solid white;
+  width: 100px;
+  height: 170px;
+  top: 82px;
+  position: absolute;
   left: -1px;
 }
 /*arco derecho*/
 div.interior .arcoRight {
-  border: 2px solid white;
-  width: 116px;
-  height: 193px;
-  top: 138px;
+  border: 1px solid white;
+  width: 100px;
+  height: 170px;
+  top: 82px;
   position: absolute;
   right: -1px;
 }
 /*circulo centro*/
 div.interior .center {
-	border: 2px solid white;
+	border: 1px solid white;
 	border-radius: 100%;
-	width: 200px;
-	height: 200px;
+	width: 160px;
+	height: 160px;
 	position: absolute;
-	left: 38%;
-	top: 120px;
+	left: 284px;
+	top: 87px;
 }
 
 div.interior .ball1 {
 	position: absolute;
-	top: 45px;
-	left: 416px;
+	top: 48px;
+	left: 380px;
 }
 
 div.interior .ball2 {
 	position: absolute;
-	top: 135px;
-	left: 60px;
+	top: 85px;
+	left: 79px;
 
 }
 
 div.interior .ball3 {
-	position: relative;
-	top: 45px;
-	left: 750px;
+	position: absolute;
+	top: 220px;
+	left: 621px;
 }
